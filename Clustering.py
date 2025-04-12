@@ -12,10 +12,10 @@ from scipy.cluster.hierarchy import dendrogram, linkage
 from scipy.stats import probplot
 
 #Inserting image
-st.image("C:/Users/Testhy/PycharmProjects/UnSupervised/ML.jpeg", width=200)
+st.image("ML.jpeg", width=200)
 
 #Import data at the global level
-data=pd.read_csv('C:/Users/Testhy/PycharmProjects/UnSupervised/Country-data.csv')
+data=pd.read_csv('Country-data.csv')
 
 #selecting the attributes....remove the attribute call country
 select_attrib=data[['child_mort','exports','health','imports','income','inflation','life_expec','total_fer','gdpp']]
